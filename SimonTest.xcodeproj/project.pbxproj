@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536ACD448F607BD60CEC4657 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D922055DAC8D087173163751 /* libPods.a */; };
 		AEEC2E291BB0EF6D006D9D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E281BB0EF6D006D9D96 /* main.m */; };
 		AEEC2E2C1BB0EF6D006D9D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E2B1BB0EF6D006D9D96 /* AppDelegate.m */; };
 		AEEC2E321BB0EF6D006D9D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2E301BB0EF6D006D9D96 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56B30977889D17A6A058708C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AEEC2E231BB0EF6D006D9D96 /* SimonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEC2E271BB0EF6D006D9D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEEC2E281BB0EF6D006D9D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		AEEC2E5B1BB1079D006D9D96 /* SimonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonViewController.m; sourceTree = "<group>"; };
 		AEEC2E5D1BB10871006D9D96 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		AEEC2E5E1BB10871006D9D96 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D922055DAC8D087173163751 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0D1200D4F1F8DF6905F6B0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				536ACD448F607BD60CEC4657 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,12 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011CDFA9C4F359BD01A6ECB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D922055DAC8D087173163751 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEEC2E1A1BB0EF6D006D9D96 = {
 			isa = PBXGroup;
 			children = (
 				AEEC2E251BB0EF6D006D9D96 /* SimonTest */,
 				AEEC2E3F1BB0EF6D006D9D96 /* SimonTestTests */,
 				AEEC2E241BB0EF6D006D9D96 /* Products */,
+				D6B79ED107C0DB8317DE3148 /* Pods */,
+				011CDFA9C4F359BD01A6ECB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +160,15 @@
 			path = simon;
 			sourceTree = "<group>";
 		};
+		D6B79ED107C0DB8317DE3148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0D1200D4F1F8DF6905F6B0 /* Pods.debug.xcconfig */,
+				56B30977889D17A6A058708C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEEC2E461BB0EF6D006D9D96 /* Build configuration list for PBXNativeTarget "SimonTest" */;
 			buildPhases = (
+				316140075EC5BAB12D74A997 /* Check Pods Manifest.lock */,
 				AEEC2E1F1BB0EF6D006D9D96 /* Sources */,
 				AEEC2E201BB0EF6D006D9D96 /* Frameworks */,
 				AEEC2E211BB0EF6D006D9D96 /* Resources */,
+				15DAA486CFAFBCDB96BE1C2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +266,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15DAA486CFAFBCDB96BE1C2D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316140075EC5BAB12D74A997 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEEC2E1F1BB0EF6D006D9D96 /* Sources */ = {
@@ -377,6 +436,7 @@
 		};
 		AEEC2E471BB0EF6D006D9D96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0D1200D4F1F8DF6905F6B0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimonTest/Info.plist;
@@ -387,6 +447,7 @@
 		};
 		AEEC2E481BB0EF6D006D9D96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56B30977889D17A6A058708C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimonTest/Info.plist;
