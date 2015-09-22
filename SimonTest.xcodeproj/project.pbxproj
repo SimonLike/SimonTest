@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEEC2E291BB0EF6D006D9D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E281BB0EF6D006D9D96 /* main.m */; };
+		AEEC2E2C1BB0EF6D006D9D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E2B1BB0EF6D006D9D96 /* AppDelegate.m */; };
+		AEEC2E321BB0EF6D006D9D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2E301BB0EF6D006D9D96 /* Main.storyboard */; };
+		AEEC2E341BB0EF6D006D9D96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2E331BB0EF6D006D9D96 /* Images.xcassets */; };
+		AEEC2E371BB0EF6D006D9D96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2E351BB0EF6D006D9D96 /* LaunchScreen.xib */; };
+		AEEC2E431BB0EF6D006D9D96 /* SimonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E421BB0EF6D006D9D96 /* SimonTestTests.m */; };
+		AEEC2E4E1BB10068006D9D96 /* SimonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E4D1BB10068006D9D96 /* SimonTableViewController.m */; };
+		AEEC2E581BB1033C006D9D96 /* SimonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E561BB1033C006D9D96 /* SimonTableViewCell.m */; };
+		AEEC2E591BB1033C006D9D96 /* SimonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2E571BB1033C006D9D96 /* SimonTableViewCell.xib */; };
+		AEEC2E5C1BB1079D006D9D96 /* SimonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E5B1BB1079D006D9D96 /* SimonViewController.m */; };
+		AEEC2E5F1BB10871006D9D96 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E5E1BB10871006D9D96 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEEC2E3D1BB0EF6D006D9D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEC2E1B1BB0EF6D006D9D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEC2E221BB0EF6D006D9D96;
+			remoteInfo = SimonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEEC2E231BB0EF6D006D9D96 /* SimonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC2E271BB0EF6D006D9D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEC2E281BB0EF6D006D9D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEEC2E2A1BB0EF6D006D9D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEEC2E2B1BB0EF6D006D9D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEEC2E311BB0EF6D006D9D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEEC2E331BB0EF6D006D9D96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEEC2E361BB0EF6D006D9D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AEEC2E3C1BB0EF6D006D9D96 /* SimonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEC2E411BB0EF6D006D9D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEEC2E421BB0EF6D006D9D96 /* SimonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimonTestTests.m; sourceTree = "<group>"; };
+		AEEC2E4C1BB10068006D9D96 /* SimonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonTableViewController.h; sourceTree = "<group>"; };
+		AEEC2E4D1BB10068006D9D96 /* SimonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonTableViewController.m; sourceTree = "<group>"; };
+		AEEC2E551BB1033C006D9D96 /* SimonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonTableViewCell.h; sourceTree = "<group>"; };
+		AEEC2E561BB1033C006D9D96 /* SimonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonTableViewCell.m; sourceTree = "<group>"; };
+		AEEC2E571BB1033C006D9D96 /* SimonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimonTableViewCell.xib; sourceTree = "<group>"; };
+		AEEC2E5A1BB1079D006D9D96 /* SimonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonViewController.h; sourceTree = "<group>"; };
+		AEEC2E5B1BB1079D006D9D96 /* SimonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonViewController.m; sourceTree = "<group>"; };
+		AEEC2E5D1BB10871006D9D96 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AEEC2E5E1BB10871006D9D96 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEEC2E201BB0EF6D006D9D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2E391BB0EF6D006D9D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEC2E1A1BB0EF6D006D9D96 = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E251BB0EF6D006D9D96 /* SimonTest */,
+				AEEC2E3F1BB0EF6D006D9D96 /* SimonTestTests */,
+				AEEC2E241BB0EF6D006D9D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEEC2E241BB0EF6D006D9D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E231BB0EF6D006D9D96 /* SimonTest.app */,
+				AEEC2E3C1BB0EF6D006D9D96 /* SimonTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEEC2E251BB0EF6D006D9D96 /* SimonTest */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E511BB10132006D9D96 /* simon */,
+				AEEC2E2A1BB0EF6D006D9D96 /* AppDelegate.h */,
+				AEEC2E2B1BB0EF6D006D9D96 /* AppDelegate.m */,
+				AEEC2E4C1BB10068006D9D96 /* SimonTableViewController.h */,
+				AEEC2E4D1BB10068006D9D96 /* SimonTableViewController.m */,
+				AEEC2E5A1BB1079D006D9D96 /* SimonViewController.h */,
+				AEEC2E5B1BB1079D006D9D96 /* SimonViewController.m */,
+				AEEC2E5D1BB10871006D9D96 /* TestViewController.h */,
+				AEEC2E5E1BB10871006D9D96 /* TestViewController.m */,
+				AEEC2E301BB0EF6D006D9D96 /* Main.storyboard */,
+				AEEC2E331BB0EF6D006D9D96 /* Images.xcassets */,
+				AEEC2E351BB0EF6D006D9D96 /* LaunchScreen.xib */,
+				AEEC2E261BB0EF6D006D9D96 /* Supporting Files */,
+			);
+			path = SimonTest;
+			sourceTree = "<group>";
+		};
+		AEEC2E261BB0EF6D006D9D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E271BB0EF6D006D9D96 /* Info.plist */,
+				AEEC2E281BB0EF6D006D9D96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEEC2E3F1BB0EF6D006D9D96 /* SimonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E421BB0EF6D006D9D96 /* SimonTestTests.m */,
+				AEEC2E401BB0EF6D006D9D96 /* Supporting Files */,
+			);
+			path = SimonTestTests;
+			sourceTree = "<group>";
+		};
+		AEEC2E401BB0EF6D006D9D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E411BB0EF6D006D9D96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEEC2E511BB10132006D9D96 /* simon */ = {
+			isa = PBXGroup;
+			children = (
+				AEEC2E551BB1033C006D9D96 /* SimonTableViewCell.h */,
+				AEEC2E561BB1033C006D9D96 /* SimonTableViewCell.m */,
+				AEEC2E571BB1033C006D9D96 /* SimonTableViewCell.xib */,
+			);
+			path = simon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEEC2E221BB0EF6D006D9D96 /* SimonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC2E461BB0EF6D006D9D96 /* Build configuration list for PBXNativeTarget "SimonTest" */;
+			buildPhases = (
+				AEEC2E1F1BB0EF6D006D9D96 /* Sources */,
+				AEEC2E201BB0EF6D006D9D96 /* Frameworks */,
+				AEEC2E211BB0EF6D006D9D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimonTest;
+			productName = SimonTest;
+			productReference = AEEC2E231BB0EF6D006D9D96 /* SimonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEEC2E3B1BB0EF6D006D9D96 /* SimonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEC2E491BB0EF6D006D9D96 /* Build configuration list for PBXNativeTarget "SimonTestTests" */;
+			buildPhases = (
+				AEEC2E381BB0EF6D006D9D96 /* Sources */,
+				AEEC2E391BB0EF6D006D9D96 /* Frameworks */,
+				AEEC2E3A1BB0EF6D006D9D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEEC2E3E1BB0EF6D006D9D96 /* PBXTargetDependency */,
+			);
+			name = SimonTestTests;
+			productName = SimonTestTests;
+			productReference = AEEC2E3C1BB0EF6D006D9D96 /* SimonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEEC2E1B1BB0EF6D006D9D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Simon;
+				TargetAttributes = {
+					AEEC2E221BB0EF6D006D9D96 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AEEC2E3B1BB0EF6D006D9D96 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AEEC2E221BB0EF6D006D9D96;
+					};
+				};
+			};
+			buildConfigurationList = AEEC2E1E1BB0EF6D006D9D96 /* Build configuration list for PBXProject "SimonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEEC2E1A1BB0EF6D006D9D96;
+			productRefGroup = AEEC2E241BB0EF6D006D9D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEEC2E221BB0EF6D006D9D96 /* SimonTest */,
+				AEEC2E3B1BB0EF6D006D9D96 /* SimonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEEC2E211BB0EF6D006D9D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2E591BB1033C006D9D96 /* SimonTableViewCell.xib in Resources */,
+				AEEC2E321BB0EF6D006D9D96 /* Main.storyboard in Resources */,
+				AEEC2E371BB0EF6D006D9D96 /* LaunchScreen.xib in Resources */,
+				AEEC2E341BB0EF6D006D9D96 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2E3A1BB0EF6D006D9D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEEC2E1F1BB0EF6D006D9D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2E5F1BB10871006D9D96 /* TestViewController.m in Sources */,
+				AEEC2E581BB1033C006D9D96 /* SimonTableViewCell.m in Sources */,
+				AEEC2E5C1BB1079D006D9D96 /* SimonViewController.m in Sources */,
+				AEEC2E2C1BB0EF6D006D9D96 /* AppDelegate.m in Sources */,
+				AEEC2E291BB0EF6D006D9D96 /* main.m in Sources */,
+				AEEC2E4E1BB10068006D9D96 /* SimonTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEEC2E381BB0EF6D006D9D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEEC2E431BB0EF6D006D9D96 /* SimonTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEEC2E3E1BB0EF6D006D9D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEC2E221BB0EF6D006D9D96 /* SimonTest */;
+			targetProxy = AEEC2E3D1BB0EF6D006D9D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEEC2E301BB0EF6D006D9D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEC2E311BB0EF6D006D9D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEEC2E351BB0EF6D006D9D96 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEEC2E361BB0EF6D006D9D96 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEEC2E441BB0EF6D006D9D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEC2E451BB0EF6D006D9D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEEC2E471BB0EF6D006D9D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEEC2E481BB0EF6D006D9D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimonTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEEC2E4A1BB0EF6D006D9D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonTest.app/SimonTest";
+			};
+			name = Debug;
+		};
+		AEEC2E4B1BB0EF6D006D9D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimonTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimonTest.app/SimonTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEEC2E1E1BB0EF6D006D9D96 /* Build configuration list for PBXProject "SimonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2E441BB0EF6D006D9D96 /* Debug */,
+				AEEC2E451BB0EF6D006D9D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC2E461BB0EF6D006D9D96 /* Build configuration list for PBXNativeTarget "SimonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2E471BB0EF6D006D9D96 /* Debug */,
+				AEEC2E481BB0EF6D006D9D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEC2E491BB0EF6D006D9D96 /* Build configuration list for PBXNativeTarget "SimonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEEC2E4A1BB0EF6D006D9D96 /* Debug */,
+				AEEC2E4B1BB0EF6D006D9D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEEC2E1B1BB0EF6D006D9D96 /* Project object */;
+}
