@@ -39,5 +39,12 @@
     TestViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
                                           instantiateViewControllerWithIdentifier:@"TestView"];
     [self.navigationController pushViewController:vc animated:YES];
+    
+    __weak typeof(self) weakSelf=self;//避免block 循环缓存
+    
+    vc.testViewBlock=^(NSString *str){
+        NSLog(@"√--->%@",str);
+        [weakSelf.navigationController popViewControllerAnimated:YES];
+    };
 }
 @end

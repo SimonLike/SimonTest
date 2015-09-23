@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SimonTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *images;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
 @end

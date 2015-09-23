@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void (^TestViewblock)(NSString *str);
+
 @interface TestViewController : UIViewController
+
+@property(nonatomic,copy)TestViewblock testViewBlock;
+
+- (IBAction)back:(id)sender;
 
 @end

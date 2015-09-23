@@ -8,6 +8,7 @@
 
 #import "SimonTableViewController.h"
 #import "SimonTableViewCell.h"
+#import "UIImageView+WebCache.h"
 
 @interface SimonTableViewController ()
 @property(strong,nonatomic)NSArray *simonArr;
@@ -46,12 +47,15 @@
     if (cell==nil) {
         cell= [[[NSBundle mainBundle]loadNibNamed:@"SimonTableViewCell" owner:nil options:nil] firstObject];
     }
-    cell.textLabel.text=[self.simonArr objectAtIndex:indexPath.row];
-    
+    cell.nameLabel.text=[self.simonArr objectAtIndex:indexPath.row];
+    [cell.images sd_setImageWithURL:[NSURL URLWithString:@"http://baidu.com"] placeholderImage:nil];
     return cell;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
+    return 60;
+}
 /*ß
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
