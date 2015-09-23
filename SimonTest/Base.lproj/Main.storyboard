@@ -166,9 +166,9 @@
                                 <exclude reference="Hd1-j5-E0R"/>
                                 <exclude reference="N7c-yz-aWE"/>
                                 <exclude reference="XKW-nm-A8W"/>
+                                <exclude reference="pTo-7e-9Wk"/>
                                 <exclude reference="Oat-4W-9eM"/>
                                 <exclude reference="arJ-0S-Bym"/>
-                                <exclude reference="pTo-7e-9Wk"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -182,9 +182,9 @@
                                 <exclude reference="Hd1-j5-E0R"/>
                                 <include reference="N7c-yz-aWE"/>
                                 <exclude reference="XKW-nm-A8W"/>
+                                <include reference="pTo-7e-9Wk"/>
                                 <exclude reference="Oat-4W-9eM"/>
                                 <include reference="arJ-0S-Bym"/>
-                                <include reference="pTo-7e-9Wk"/>
                             </mask>
                         </variation>
                     </view>
@@ -206,6 +206,7 @@
                         <viewControllerLayoutGuide type="bottom" id="t0K-T8-amM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="IPy-cJ-vgK">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -296,7 +297,7 @@
                         <viewControllerLayoutGuide type="bottom" id="cau-jL-T4X"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nj1-tj-LVn">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewf-oP-VM0">
@@ -328,10 +329,10 @@
                                 <exclude reference="hBn-we-IZT"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="PWh-qE-7qN"/>
-                                <exclude reference="mGf-a3-ar9"/>
                                 <exclude reference="QLv-7l-fZX"/>
                                 <exclude reference="glr-Kk-zeW"/>
+                                <exclude reference="PWh-qE-7qN"/>
+                                <exclude reference="mGf-a3-ar9"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -340,10 +341,10 @@
                                 <include reference="hBn-we-IZT"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="PWh-qE-7qN"/>
-                                <include reference="mGf-a3-ar9"/>
                                 <include reference="QLv-7l-fZX"/>
                                 <include reference="glr-Kk-zeW"/>
+                                <include reference="PWh-qE-7qN"/>
+                                <include reference="mGf-a3-ar9"/>
                             </mask>
                         </variation>
                     </view>
@@ -362,6 +363,7 @@
                         <viewControllerLayoutGuide type="bottom" id="MFo-U1-njO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fHf-0k-zEC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.87360723063786128" green="0.88128251632636156" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -380,6 +382,7 @@
                         <viewControllerLayoutGuide type="bottom" id="sKI-3g-URn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kJS-6a-wxs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.9210949523340447" green="1" blue="0.82231034601737141" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -437,6 +440,7 @@
                         <viewControllerLayoutGuide type="bottom" id="gmB-CC-3Ja"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="GwL-bo-w8X">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.73543452487192962" blue="0.68067991744332068" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
