@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FMDB.h"
+#import "SimonManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [[SimonManager defaultDBManager] createDataBase];
+    
     return YES;
 }
 

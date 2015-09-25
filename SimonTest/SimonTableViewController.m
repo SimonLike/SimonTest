@@ -9,6 +9,7 @@
 #import "SimonTableViewController.h"
 #import "SimonTableViewCell.h"
 #import "UIImageView+WebCache.h"
+#import "SimonManager.h"
 
 @interface SimonTableViewController ()
 @property(strong,nonatomic)NSArray *simonArr;
@@ -55,6 +56,11 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     return 60;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    [[SimonManager defaultDBManager] createDataTable];
 }
 /*ß
 // Override to support conditional editing of the table view.
