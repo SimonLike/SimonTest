@@ -257,6 +257,23 @@
                                     <action selector="buttonClick:" destination="uHU-3w-Wd2" eventType="touchUpInside" id="jio-F5-w2d"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l48-iJ-aOH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.99583538119943749" green="1" blue="0.79716965156923292" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="83" width="400" height="133"/>
+                                </variation>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sTf-Gs-hjp">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="12" y="243" width="300" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -266,6 +283,8 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="2Mf-Ty-rgY"/>
+                                <exclude reference="l48-iJ-aOH"/>
+                                <exclude reference="sTf-Gs-hjp"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="2RP-gZ-nWu"/>
@@ -281,12 +300,22 @@
                                 <include reference="6gE-Cp-eoi"/>
                             </mask>
                         </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="l48-iJ-aOH"/>
+                                <include reference="sTf-Gs-hjp"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="three" id="Wq3-2p-MUa"/>
+                    <connections>
+                        <outlet property="textFiled" destination="sTf-Gs-hjp" id="pL7-ej-qwQ"/>
+                        <outlet property="textView" destination="l48-iJ-aOH" id="0Az-7u-sJH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fa1-kQ-axo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-244.5" y="159"/>
+            <point key="canvasLocation" x="-816" y="202.5"/>
         </scene>
         <!--ok-->
         <scene sceneID="RdZ-Bi-IIi">

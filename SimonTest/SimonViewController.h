@@ -10,5 +10,7 @@
 
 @interface SimonViewController : UIViewController
 - (IBAction)buttonClick:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (weak, nonatomic) IBOutlet UITextField *textFiled;
 
 @end
