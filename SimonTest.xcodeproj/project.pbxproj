@@ -57,6 +57,8 @@
 		AEEC2E5D1BB10871006D9D96 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		AEEC2E5E1BB10871006D9D96 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		D922055DAC8D087173163751 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4428D901BC9145300E160FB /* SimonTest.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonTest.pch; sourceTree = "<group>"; };
+		F4428D921BC9150500E160FB /* CommunaUit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunaUit.h; sourceTree = "<group>"; };
 		F4E8F1A31BB2971D00294628 /* SimonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonManager.h; sourceTree = "<group>"; };
 		F4E8F1A41BB2971D00294628 /* SimonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonManager.m; sourceTree = "<group>"; };
 		F4E8F1A61BB2984B00294628 /* SimonDataDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonDataDB.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		AEEC2E251BB0EF6D006D9D96 /* SimonTest */ = {
 			isa = PBXGroup;
 			children = (
+				F4428D911BC914C600E160FB /* comment */,
 				F4E8F1A21BB296F300294628 /* simonDb */,
 				AEEC2E511BB10132006D9D96 /* simon */,
 				AEEC2E2A1BB0EF6D006D9D96 /* AppDelegate.h */,
@@ -130,6 +133,7 @@
 				AEEC2E5E1BB10871006D9D96 /* TestViewController.m */,
 				AEEC2E301BB0EF6D006D9D96 /* Main.storyboard */,
 				AEEC2E331BB0EF6D006D9D96 /* Images.xcassets */,
+				F4428D901BC9145300E160FB /* SimonTest.pch */,
 				AEEC2E351BB0EF6D006D9D96 /* LaunchScreen.xib */,
 				AEEC2E261BB0EF6D006D9D96 /* Supporting Files */,
 			);
@@ -179,6 +183,14 @@
 				56B30977889D17A6A058708C /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4428D911BC914C600E160FB /* comment */ = {
+			isa = PBXGroup;
+			children = (
+				F4428D921BC9150500E160FB /* CommunaUit.h */,
+			);
+			path = comment;
 			sourceTree = "<group>";
 		};
 		F4E8F1A21BB296F300294628 /* simonDb */ = {

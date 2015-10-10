@@ -12,5 +12,6 @@
 - (IBAction)buttonClick:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UITextField *textFiled;
+@property (weak, nonatomic) IBOutlet UIImageView *imageUrl;
 
 @end

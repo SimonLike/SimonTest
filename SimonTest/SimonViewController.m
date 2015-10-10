@@ -8,6 +8,7 @@
 
 #import "SimonViewController.h"
 #import "TestViewController.h"
+#import "UIImageView+WebCache.h"
 
 @interface SimonViewController ()<UITextViewDelegate,UITextFieldDelegate>
 
@@ -21,11 +22,35 @@
     
     self.textView.delegate=self;
     self.textFiled.delegate=self;
+    [self.imageUrl sd_setImageWithURL:[NSURL URLWithString:@"http://wx.dudubashi.com/image/v2/banner/invite_20150825.jpg"] placeholderImage:[UIImage imageNamed:@""]];
+   
+    UIGestureRecognizer *singleTap =  [[UIGestureRecognizer alloc]initWithTarget:self action:@selector(UesrClicked)];
+    
+    [self.imageUrl addGestureRecognizer:singleTap];
+    
+}
+-(void)UesrClicked{
+    
+    UIImageWriteToSavedPhotosAlbum(self.imageUrl.image,self,@selector(image:didFinishSavingWithError:contextInfo:),NULL);
+}
 
-    NSString *conStr=@"sdfsdad\ndsafasd\n15";
 
-    NSString *content = [conStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 
+//指定回调方法
+
+-(void)image:(UIImage*)image didFinishSavingWithError:(NSError*)error contextInfo:(void*)contextInfo
+{
+    
+    if(!error){
+        
+        NSLog(@"savesuccess");
+        
+    }else{
+        
+        NSLog(@"savefailed");
+        
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -72,9 +97,7 @@
     return YES;
 }
 - (IBAction)buttonClick:(id)sender {
-    NSString *content = [self.textView.text stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
-    NSLog(@"text-->%@",content);
-
+    [self UesrClicked];
 //    TestViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
 //                                          instantiateViewControllerWithIdentifier:@"TestView"];
 //    [self.navigationController pushViewController:vc animated:YES];
