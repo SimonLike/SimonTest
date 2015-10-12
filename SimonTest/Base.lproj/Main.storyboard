@@ -95,7 +95,7 @@
         <!--one-->
         <scene sceneID="exr-bR-jPj">
             <objects>
-                <viewController title="one" id="ecx-IC-WWa" sceneMemberID="viewController">
+                <viewController title="one" id="ecx-IC-WWa" customClass="SimonOneViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nw5-78-CKp"/>
                         <viewControllerLayoutGuide type="bottom" id="zML-W5-4Yc"/>
@@ -200,10 +200,10 @@
             </objects>
             <point key="canvasLocation" x="-244.5" y="-1285"/>
         </scene>
-        <!--View Controller-->
+        <!--Simon One Sub View Controller-->
         <scene sceneID="2hG-M7-w6H">
             <objects>
-                <viewController id="VAq-Jv-tL5" sceneMemberID="viewController">
+                <viewController id="VAq-Jv-tL5" customClass="SimonOneSubViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XoM-zD-qix"/>
                         <viewControllerLayoutGuide type="bottom" id="t0K-T8-amM"/>
@@ -405,7 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fa1-kQ-axo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-816" y="202.5"/>
+            <point key="canvasLocation" x="-882" y="104.25"/>
         </scene>
         <!--ok-->
         <scene sceneID="RdZ-Bi-IIi">

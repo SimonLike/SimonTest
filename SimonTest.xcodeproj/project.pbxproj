@@ -19,6 +19,8 @@
 		AEEC2E591BB1033C006D9D96 /* SimonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEC2E571BB1033C006D9D96 /* SimonTableViewCell.xib */; };
 		AEEC2E5C1BB1079D006D9D96 /* SimonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E5B1BB1079D006D9D96 /* SimonViewController.m */; };
 		AEEC2E5F1BB10871006D9D96 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEC2E5E1BB10871006D9D96 /* TestViewController.m */; };
+		F4E792D41BCB8E460030AE6B /* SimonOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E792D31BCB8E460030AE6B /* SimonOneViewController.m */; };
+		F4E792D71BCB8E620030AE6B /* SimonOneSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E792D61BCB8E620030AE6B /* SimonOneSubViewController.m */; };
 		F4E8F1A51BB2971D00294628 /* SimonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E8F1A41BB2971D00294628 /* SimonManager.m */; };
 		F4E8F1A81BB2984B00294628 /* SimonDataDB.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E8F1A71BB2984B00294628 /* SimonDataDB.m */; };
 		F4E8F1B71BB2AD6000294628 /* SimonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E8F1B61BB2AD6000294628 /* SimonModel.m */; };
@@ -59,6 +61,10 @@
 		D922055DAC8D087173163751 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4428D901BC9145300E160FB /* SimonTest.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonTest.pch; sourceTree = "<group>"; };
 		F4428D921BC9150500E160FB /* CommunaUit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunaUit.h; sourceTree = "<group>"; };
+		F4E792D21BCB8E460030AE6B /* SimonOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonOneViewController.h; sourceTree = "<group>"; };
+		F4E792D31BCB8E460030AE6B /* SimonOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonOneViewController.m; sourceTree = "<group>"; };
+		F4E792D51BCB8E620030AE6B /* SimonOneSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonOneSubViewController.h; sourceTree = "<group>"; };
+		F4E792D61BCB8E620030AE6B /* SimonOneSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonOneSubViewController.m; sourceTree = "<group>"; };
 		F4E8F1A31BB2971D00294628 /* SimonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonManager.h; sourceTree = "<group>"; };
 		F4E8F1A41BB2971D00294628 /* SimonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimonManager.m; sourceTree = "<group>"; };
 		F4E8F1A61BB2984B00294628 /* SimonDataDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimonDataDB.h; sourceTree = "<group>"; };
@@ -129,6 +135,10 @@
 				AEEC2E4D1BB10068006D9D96 /* SimonTableViewController.m */,
 				AEEC2E5A1BB1079D006D9D96 /* SimonViewController.h */,
 				AEEC2E5B1BB1079D006D9D96 /* SimonViewController.m */,
+				F4E792D21BCB8E460030AE6B /* SimonOneViewController.h */,
+				F4E792D31BCB8E460030AE6B /* SimonOneViewController.m */,
+				F4E792D51BCB8E620030AE6B /* SimonOneSubViewController.h */,
+				F4E792D61BCB8E620030AE6B /* SimonOneSubViewController.m */,
 				AEEC2E5D1BB10871006D9D96 /* TestViewController.h */,
 				AEEC2E5E1BB10871006D9D96 /* TestViewController.m */,
 				AEEC2E301BB0EF6D006D9D96 /* Main.storyboard */,
@@ -344,10 +354,12 @@
 				AEEC2E581BB1033C006D9D96 /* SimonTableViewCell.m in Sources */,
 				AEEC2E5C1BB1079D006D9D96 /* SimonViewController.m in Sources */,
 				AEEC2E2C1BB0EF6D006D9D96 /* AppDelegate.m in Sources */,
+				F4E792D41BCB8E460030AE6B /* SimonOneViewController.m in Sources */,
 				F4E8F1B71BB2AD6000294628 /* SimonModel.m in Sources */,
 				F4E8F1A51BB2971D00294628 /* SimonManager.m in Sources */,
 				AEEC2E291BB0EF6D006D9D96 /* main.m in Sources */,
 				F4E8F1A81BB2984B00294628 /* SimonDataDB.m in Sources */,
+				F4E792D71BCB8E620030AE6B /* SimonOneSubViewController.m in Sources */,
 				AEEC2E4E1BB10068006D9D96 /* SimonTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
